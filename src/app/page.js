@@ -69,7 +69,7 @@ export default function Home() {
   return (
     <main className="flex flex-col h-screen justify-center items-center bg-gradient-to-r from-pink-500 to-violet-600">
       <div className="flex flex-col items-center mt-10">
-        <h1 className="text-5xl">CODEMONK</h1>
+        <h1 className="text-5xl">SonicBreak</h1>
         <h2 className="text-5xl mt-4">
           {isFinished ? "Time's Up" : formatTime(time)}
         </h2>
